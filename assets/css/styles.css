@@ -167,7 +167,7 @@ a {
 }
 
 .accordion button {
-  position: relative;
+  position: static;
   display: block;
   text-align: left;
   width: 100%;
