@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html>
+<style>
+  table {
+    font-family: "Satoshi";
+    font-size: "5px";
+    border-collapse: collapse;
+    width: 100%;
+  }
 
+  th {
+    border: 2px solid #f54253;
+    font-size: "5px";
+    text-align: center;
+    padding: 8px;
+  }
+  td {
+    border: 1px solid #ffffff;
+    font-size: "5px";
+    text-align: left;
+    padding: 8px;
+  }
+
+</style>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content
@@ -61,28 +82,196 @@
           <div class="accordion-item">
       <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Standard Commands</span><span class="icon" aria-hidden="true"></span></button>
       <div class="accordion-content">
-        <p>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands<br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands<br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> fuck <br> hi <br> lol</p>
+        <table class="table-responsive-sm">
+          <tr>
+            <th>Command</th>
+            <th>Function</th>
+            <th>Usage</th>
+          </tr>
+          <tr>
+            <td>choice</td>
+            <td>Get random answer from selected choices</td>
+            <td><code>ty!choice [option 1] [option 2] ...</code></td>
+          </tr>
+          <tr>
+            <td>dice</td>
+            <td>Get random result from throwing a dice</td>
+            <td><code>ty!dice [amount (optional)]</code></td>
+          </tr>
+          <tr>
+            <td>coin</td>
+            <td>Get random result from flipping a coin</td>
+            <td><code>ty!coin [amount (optional)]</code></td>
+          </tr>
+          <tr>
+            <td>answer</td>
+            <td>Get random answer of a question from selected choices</td>
+            <td><code>ty!answer [question] | [choice 1] [choice 2] ...</code></td>
+          </tr>
+          <tr>
+            <td>8ball</td>
+            <td>Ask 8ball about your condition</td>
+            <td><code>ty!8ball [question]</code></td>
+          </tr>    
+          <tr>
+            <td>say</td>
+            <td>Make Tycha say something</td>
+            <td><code>ty!say [sentences]</code></td>
+          </tr>
+        </table>
       </div>
     </div>
     <! --- to here :D -- >
     <! --- If you want more just copy the following code from here -- >
           <div class="accordion-item">
-      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Standard Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title" style="font-family: 'Satoshi';margin-top: 10px;">Tools Commands</span><span class="icon" aria-hidden="true"></span></button>
       <div class="accordion-content">
-        <p>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands<br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands<br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> fuck <br> hi <br> lol</p>
+        <table class="table-responsive-sm">
+          <tr>
+            <th>Command</th>
+            <th>Function</th>
+            <th>Usage</th>
+          </tr>
+          <tr>
+            <td>help</td>
+            <td>Show all of the commands</td>
+            <td><code>ty!help</code></td>
+          </tr>
+          <tr>
+            <td>clear</td>
+            <td>Clearing/Purging messages</td>
+            <td><code>ty!clear [amount]</code></td>
+          </tr>
+          <tr>
+            <td>avatar</td>
+            <td>Get discord member avatar</td>
+            <td><code>ty!avatar [@member]</code></td>
+          </tr>
+        </table>
       </div>
     </div>
     <! --- to here :D -- >
           <div class="accordion-item">
-      <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Fun Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title" style="font-family: 'Satoshi';margin-top: 10px;">Search Commands</span><span class="icon" aria-hidden="true"></span></button>
       <div class="accordion-content">
-        <p>!hug - hugs a user <br> !ban - bans a user
-        </p>
-      </div>
-    </div>
-
-  </div>
-</div>
+        <table class="table-responsive-sm">
+          <tr>
+            <th>Command</th>
+            <th>Function</th>
+            <th>Usage</th>
+          </tr>
+          <tr>
+            <td>cats</td>
+            <td>Get random cats image</td>
+            <td><code>ty!cats</code></td>
+          </tr>
+          <tr>
+            <td>dogs</td>
+            <td>Get random dogs image</td>
+            <td><code>ty!dogs</code></td>
+          </tr>
+          <tr>
+            <td>facts</td>
+            <td>Get random facts</td>
+            <td><code>ty!facts</code></td>
+          </tr>
+          <tr>
+            <td>jokes</td>
+            <td>Get random jokes</td>
+            <td><code>ty!jokes</code></td>
+          </tr>
+          <tr>
+            <td>memes</td>
+            <td>Get random memes from reddit</td>
+            <td><code>ty!memes [subreddit (optional)]</code></td>
+          </tr>    
+          <tr>
+            <td>quotes</td>
+            <td>Get random quotes</td>
+            <td><code>ty!quotes</code></td>
+          </tr>
+          <tr>
+            <td>words</td>
+            <td>Get random words</td>
+            <td><code>ty!words</code></td>
+          </tr>
+          <tr>
+            <td>color</td>
+            <td>Get random color</td>
+            <td><code>ty!color</code></td>
+          </tr>
+       </table>
+     </div>
+   </div>
+          <div class="accordion-item">
+      <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title" style="font-family: 'Satoshi';margin-top: 10px;">Anime Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <table class="table-responsive-sm">
+          <tr>
+            <th>Command</th>
+            <th>Function</th>
+            <th>Usage</th>
+          </tr>
+          <tr>
+            <td>anime</td>
+            <td>Get random anime series</td>
+            <td><code>ty!anime</code></td>
+          </tr>
+          <tr>
+            <td>animemovie</td>
+            <td>Get random anime movie</td>
+            <td><code>ty!amovie</code></td>
+          </tr>
+          <tr>
+            <td>manga</td>
+            <td>Get random manga series</td>
+            <td><code>ty!manga</code></td>
+          </tr>
+          <tr>
+            <td>character</td>
+            <td>Get random anime characters and their ranks (over 20,000 characters)</td>
+            <td><code>ty!char</code></td>
+          </tr>
+          <tr>
+            <td>chardex</td>
+            <td>View your CharDex to see howmany Anime Characters that you've found</td>
+            <td><code>ty!chardex</code></td>
+          </tr>    
+       </table>
+     </div>
+   </div>
+          <div class="accordion-item">
+      <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title" style="font-family: 'Satoshi';margin-top: 10px;">Social Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <table class="table-responsive-sm">
+          <tr>
+            <th>Command</th>
+            <th>Function</th>
+            <th>Usage</th>
+          </tr>
+          <tr>
+            <td>pat</td>
+            <td>Pat a discord member</td>
+            <td><code>ty!pat [@member]</code></td>
+          </tr>
+          <tr>
+            <td>hug</td>
+            <td>Hug a discord member</td>
+            <td><code>ty!hug [@member]</code></td>
+          </tr>
+          <tr>
+            <td>insult</td>
+            <td>Get random insult and insult your friends</td>
+            <td><code>ty!insult [@member (optional)]</code></td>
+          </tr>
+          <tr>
+            <td>compliment</td>
+            <td>Get random compliment and compliment your friends</td>
+            <td><code>ty!compli [@member (optional)]</code></td>
+          </tr> 
+       </table>
+     </div>
+   </div>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--secondary)" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,154.7C384,171,480,213,576,218.7C672,224,768,192,864,181.3C960,171,1056,181,1152,192C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <div class="footer-dark" style="background: var(--secondary);padding-top: 0px;padding-bottom: 0px;">
         <div class="container">
