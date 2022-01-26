@@ -48,7 +48,7 @@ $(function() {
       if (target.length) {
         $('body').animate({
           scrollTop: target.offset().top
-        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        }, 2000); // The number here represents the speed of the scroll in milliseconds
         return false;
       }
     }
