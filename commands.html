@@ -80,32 +80,42 @@
           <tr>
             <td>choice</td>
             <td>Get random answer from selected choices</td>
-            <td><code>ty!choice [option 1] [option 2] ...</code></td>
+            <td><code>/choice [option 1]/[option 2] ...</code></td>
           </tr>
           <tr>
             <td>dice</td>
             <td>Get random result from throwing a dice</td>
-            <td><code>ty!dice [amount (optional)]</code></td>
+            <td><code>/dice </code></td>
           </tr>
           <tr>
             <td>coin</td>
             <td>Get random result from flipping a coin</td>
-            <td><code>ty!coin [amount (optional)]</code></td>
+            <td><code>/coin </code></td>
           </tr>
           <tr>
             <td>answer</td>
             <td>Get random answer of a question from selected choices</td>
-            <td><code>ty!answer [question] | [choice 1] [choice 2] ...</code></td>
+            <td><code>/answer [question] [choice 1]/[choice 2] ...</code></td>
           </tr>
           <tr>
             <td>8ball</td>
             <td>Ask 8ball about your condition</td>
-            <td><code>ty!8ball [question]</code></td>
+            <td><code>/8ball [question]</code></td>
           </tr>    
           <tr>
             <td>say</td>
             <td>Make Tycha say something</td>
-            <td><code>ty!say [sentences]</code></td>
+            <td><code>/say [sentences]</code></td>
+          </tr>
+          <tr>
+            <td>randint</td>
+            <td>get random integer number from given range</td>
+            <td><code>/randint [begin] [end]</code></td>
+          </tr>
+          <tr>
+            <td>randfloat</td>
+            <td>get random float number from given range</td>
+            <td><code>/randfloat [begin] [end]</code></td>
           </tr>
         </table>
       </div>
@@ -124,17 +134,22 @@
           <tr>
             <td>help</td>
             <td>Show all of the commands</td>
-            <td><code>ty!help</code></td>
+            <td><code>/help</code></td>
           </tr>
           <tr>
             <td>clear</td>
             <td>Clearing/Purging messages</td>
-            <td><code>ty!clear [amount]</code></td>
+            <td><code>/clear [amount]</code></td>
           </tr>
           <tr>
             <td>avatar</td>
             <td>Get discord member avatar</td>
-            <td><code>ty!avatar [@member]</code></td>
+            <td><code>/avatar [@member]</code></td>
+          </tr>
+          <tr>
+            <td>banner</td>
+            <td>Get discord member custom banner</td>
+            <td><code>/banner [@member]</code></td>
           </tr>
         </table>
       </div>
@@ -152,42 +167,47 @@
           <tr>
             <td>cats</td>
             <td>Get random cats image</td>
-            <td><code>ty!cats</code></td>
+            <td><code>/cats</code></td>
           </tr>
           <tr>
             <td>dogs</td>
             <td>Get random dogs image</td>
-            <td><code>ty!dogs</code></td>
+            <td><code>/dogs</code></td>
           </tr>
           <tr>
-            <td>facts</td>
+            <td>fact</td>
             <td>Get random facts</td>
-            <td><code>ty!facts</code></td>
+            <td><code>/fact</code></td>
           </tr>
           <tr>
-            <td>jokes</td>
+            <td>joke</td>
             <td>Get random jokes</td>
-            <td><code>ty!jokes</code></td>
+            <td><code>/joke</code></td>
           </tr>
           <tr>
-            <td>memes</td>
+            <td>meme</td>
             <td>Get random memes from reddit</td>
-            <td><code>ty!memes [subreddit (optional)]</code></td>
+            <td><code>/meme [subreddit (optional)]</code></td>
           </tr>    
           <tr>
-            <td>quotes</td>
+            <td>quote</td>
             <td>Get random quotes</td>
-            <td><code>ty!quotes</code></td>
+            <td><code>/quote</code></td>
           </tr>
           <tr>
-            <td>words</td>
+            <td>word</td>
             <td>Get random words</td>
-            <td><code>ty!words</code></td>
+            <td><code>/word</code></td>
           </tr>
           <tr>
             <td>color</td>
             <td>Get random color</td>
-            <td><code>ty!color</code></td>
+            <td><code>/color</code></td>
+          </tr>
+          <tr>
+            <td>meal</td>
+            <td>Get random meal</td>
+            <td><code>/meal</code></td>
           </tr>
        </table>
      </div>
@@ -204,27 +224,27 @@
           <tr>
             <td>anime</td>
             <td>Get random anime series</td>
-            <td><code>ty!anime</code></td>
+            <td><code>/anime</code></td>
           </tr>
           <tr>
             <td>animemovie</td>
             <td>Get random anime movie</td>
-            <td><code>ty!amovie</code></td>
+            <td><code>/amovie</code></td>
           </tr>
           <tr>
             <td>manga</td>
             <td>Get random manga series</td>
-            <td><code>ty!manga</code></td>
+            <td><code>/manga</code></td>
           </tr>
           <tr>
             <td>character</td>
             <td>Get random anime characters and their ranks (over 20,000 characters)</td>
-            <td><code>ty!char</code></td>
+            <td><code>/char</code></td>
           </tr>
           <tr>
             <td>chardex</td>
             <td>View your CharDex to see howmany Anime Characters that you've found</td>
-            <td><code>ty!chardex</code></td>
+            <td><code>/chardex</code></td>
           </tr>    
        </table>
      </div>
@@ -241,22 +261,22 @@
           <tr>
             <td>pat</td>
             <td>Pat a discord member</td>
-            <td><code>ty!pat [@member]</code></td>
+            <td><code>/pat [@member]</code></td>
           </tr>
           <tr>
             <td>hug</td>
             <td>Hug a discord member</td>
-            <td><code>ty!hug [@member]</code></td>
+            <td><code>/hug [@member]</code></td>
           </tr>
           <tr>
             <td>insult</td>
             <td>Get random insult and insult your friends</td>
-            <td><code>ty!insult [@member (optional)]</code></td>
+            <td><code>/insult [@member (optional)]</code></td>
           </tr>
           <tr>
             <td>compliment</td>
             <td>Get random compliment and compliment your friends</td>
-            <td><code>ty!compli [@member (optional)]</code></td>
+            <td><code>/compli [@member (optional)]</code></td>
           </tr> 
        </table>
      </div>
